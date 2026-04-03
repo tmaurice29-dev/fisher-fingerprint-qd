@@ -1,0 +1,46 @@
+# Dataset and model checkpoints (large files — use Git LFS or Releases)
+dataset.h5
+dataset_test.h5
+*.pt
+*.pth
+
+# Outputs directory (regenerate with run_full.sh)
+outputs/
+outputs_big/
+outputs_test/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+wandb/
+runs/
