@@ -59,7 +59,7 @@ $$V_n(r,\theta;\alpha) = \tfrac{1}{2}m^*\omega_0^2\,r^2\bigl[1 + \alpha\cos(n\th
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/fisher-fingerprint-qd.git
+git clone https://github.com/tmaurice29-dev/fisher-fingerprint-qd.git
 cd fisher-fingerprint-qd
 
 # Create virtual environment (recommended)
@@ -90,7 +90,7 @@ This will:
 
 ### Option B — Use the pretrained model
 
-Download `best_model.pt` from [Releases](https://github.com/YOUR-USERNAME/fisher-fingerprint-qd/releases) and place it in `outputs/`, then:
+Download `best_model.pt` from [Releases](https://github.com/tmaurice29-dev/fisher-fingerprint-qd/releases) and place it in `outputs/`, then:
 
 ```bash
 # Generate the dataset only (needed for evaluation)
